@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="3" parallel="tests" name="Failed suite [pCloudy Suite]">
+  <parameter name="device" value="Samsung_GalaxyA72018_Android_8.0.0"/>
+  <parameter name="version" value="8.0.0"/>
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="device" value="Samsung_GalaxyA72018_Android_8.0.0"/>
+    <parameter name="version" value="8.0.0"/>
+    <classes>
+      <class name="com.migo.android.tests.MF2.Migo_MF2">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="flushReport"/>
+          <include name="reportStartUp"/>
+          <include name="MF2_001" invocation-numbers="0"/>
+          <include name="MFI_Precondition"/>
+          <include name="startApp"/>
+          <include name="stopApp"/>
+        </methods>
+      </class> <!-- com.migo.android.tests.MF2.Migo_MF2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [pCloudy Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue"
+	name="pCloudy Suite" parallel="tests">
+	
+	<test name="Test1">
+		<parameter name="device" value="Samsung_GalaxyA72018_Android_8.0.0" />
+		<parameter name="version" value="8.0.0" />
+		<classes>
+		   
+	    <class name="com.migo.android.tests.MF2.Migo_MF2" />   
+	   <class name="com.migo.android.tests.MF1.Migo_MF1" /> 
+			
+		</classes>
+	</test> 
+</suite> <!-- Suite -->
+

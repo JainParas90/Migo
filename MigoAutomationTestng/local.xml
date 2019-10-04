@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue"
+	name="pCloudy Suite" parallel="tests">
+	<test name="Test" preserve-order="true">
+		<parameter name="device" value="65FM5SJZ9SBAINSK" />
+		<parameter name="version" value="6.0.0" />
+		<classes>
+			  <!--  <class name="com.migo.android.tests.FU1.Migo_FU1" />    
+			   <class name="com.migo.android.tests.FU2.Migo_FU2" />     
+			   <class name="com.migo.android.tests.FU3.Migo_FU3" />  
+			   <class name="com.migo.android.tests.FU4.Migo_FU4" />   --> 
+	    	<!--   <class name="com.migo.android.tests.PB1.Migo_PB1_0012345678" />    -->
+	    	 <class name="com.migo.android.tests.PB2.Migo_PB2_0012345678" />   
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

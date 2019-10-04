@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-04T12:19:47Z" name="pCloudy Suite" finished-at="2019-10-04T12:27:49Z" duration-ms="481798">
+    <groups>
+    </groups>
+    <test started-at="2019-10-04T12:19:47Z" name="Test1" finished-at="2019-10-04T12:27:49Z" duration-ms="481798">
+      <class name="com.migo.android.tests.MF2.Migo_MF2">
+        <test-method is-config="true" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:49:47Z" name="startApp" finished-at="2019-10-04T17:50:26Z" duration-ms="39389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method is-config="true" signature="MFI_Precondition(java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:50:26Z" name="MFI_Precondition" finished-at="2019-10-04T17:52:51Z" duration-ms="145147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MFI_Precondition -->
+        <test-method is-config="true" signature="reportStartUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:52:51Z" name="reportStartUp" finished-at="2019-10-04T17:52:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.migo.android.tests.MF2.Migo_MF2.MF2_001(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartUp -->
+        <test-method signature="MF2_001(java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:52:51Z" name="MF2_001" finished-at="2019-10-04T17:54:07Z" duration-ms="75268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MF2_001 -->
+        <test-method is-config="true" signature="reportTearDown(java.lang.reflect.Method, java.lang.String, org.testng.ITestResult)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:54:07Z" name="reportTearDown" finished-at="2019-10-04T17:54:07Z" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.migo.android.tests.MF2.Migo_MF2.MF2_001(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=MF2_001 on [Migo_MF2 passed=0 failed=0 skipped=0] status=SUCCESS method=Migo_MF2.MF2_001(java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method is-config="true" signature="stopApp(java.lang.String)[pri:0, instance:[Migo_MF2 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:54:07Z" name="stopApp" finished-at="2019-10-04T17:54:09Z" duration-ms="1480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApp -->
+      </class> <!-- com.migo.android.tests.MF2.Migo_MF2 -->
+      <class name="com.migo.android.tests.MF1.Migo_MF1">
+        <test-method is-config="true" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:54:09Z" name="startApp" finished-at="2019-10-04T17:54:25Z" duration-ms="16791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method is-config="true" signature="MFI_Precondition(java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:54:25Z" name="MFI_Precondition" finished-at="2019-10-04T17:56:48Z" duration-ms="142409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MFI_Precondition -->
+        <test-method is-config="true" signature="reportStartUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:56:48Z" name="reportStartUp" finished-at="2019-10-04T17:56:48Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.migo.android.tests.MF1.Migo_MF1.MF1_001(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartUp -->
+        <test-method signature="MF1_001(java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:56:48Z" name="MF1_001" finished-at="2019-10-04T17:57:48Z" duration-ms="60180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MF1_001 -->
+        <test-method is-config="true" signature="reportTearDown(java.lang.reflect.Method, java.lang.String, org.testng.ITestResult)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:57:48Z" name="reportTearDown" finished-at="2019-10-04T17:57:48Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.migo.android.tests.MF1.Migo_MF1.MF1_001(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=MF1_001 on [Migo_MF1 passed=0 failed=0 skipped=0] status=SUCCESS method=Migo_MF1.MF1_001(java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method is-config="true" signature="stopApp(java.lang.String)[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:57:48Z" name="stopApp" finished-at="2019-10-04T17:57:49Z" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung_GalaxyA72018_Android_8.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApp -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:[Migo_MF1 passed=0 failed=0 skipped=0]]" started-at="2019-10-04T17:57:49Z" name="flushReport" finished-at="2019-10-04T17:57:51Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.migo.android.tests.MF1.Migo_MF1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- pCloudy Suite -->
+</testng-results>
